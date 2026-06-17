@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;750&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-arabic: "Amiri", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom Arabic utility styling */
+[dir="rtl"] {
+  font-family: var(--font-arabic), serif;
+}
+

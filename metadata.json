@@ -1,0 +1,6 @@
+{
+  "name": "Tes IQ & Kamus Bahasa Arab",
+  "description": "Aplikasi interaktif untuk menguji kemampuan bahasa Arab tingkat SD, SMP, SMA dilengkapi dengan Kamus Bahasa Arab.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
