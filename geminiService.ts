@@ -1,4 +1,4 @@
-
+const API_KEY = "AIzaSyAJSeXe576CPHgUrarqiUPHRX03CxuDYVg";
 import React, { useState, useEffect } from 'react';
 import { getIndonesianGardens } from '../services/geminiService';
 
